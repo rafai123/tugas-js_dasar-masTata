@@ -13,7 +13,7 @@ jawaban tertera pada file [Jawaban Nomor 1.html](https://github.com/rafai123/tug
 
 **Penjelasan ada pada comment pada kode berikut : **
 
-```js
+```html
 <h2>Jumlah User</h2>
     <ul id="list"></ul>
 
