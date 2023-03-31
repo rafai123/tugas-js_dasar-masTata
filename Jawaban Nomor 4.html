@@ -20,15 +20,20 @@
   </body>
   <script>
     // mendeklarasikan variabel jumlah perulangan
-    let perulangan = 0
-    let lagi = true
+    let perulangan = 0;
 
+    // Mendeklarasikan variabel lagi dengan nilai true
+    let lagi = true;
+
+    // melakukan perulangan jika nilai lagi adalah true
     while (lagi) {
-        perulangan ++;
-        let mau = confirm("Apakah anda mau mengulang");
-        (mau == true ) ? lagi = true : lagi = false;
+      perulangan++;
+      // menampilkan confirm dan menyimpan hasilnya ke variable mau
+      let mau = confirm("Apakah anda mau mengulang");
+      // melakukan pengecekan nilai variabel mau
+      mau == true ? (lagi = true) : (lagi = false);
     }
-
-    alert(`perulangan sudah dilakukan sebanyak : ${perulangan}`)
+    // menampilkan jumlah perulangan
+    alert(`perulangan sudah dilakukan sebanyak : ${perulangan}`);
   </script>
 </html>
